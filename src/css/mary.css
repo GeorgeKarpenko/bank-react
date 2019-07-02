@@ -1,0 +1,107 @@
+.navbar-toggler, .navbar-nav{
+    margin-left: auto;
+    margin-right: 0!important;
+}
+
+.active{
+    border-style:solid;
+    border-color:black;
+    border-width: 1px;
+}
+
+.active a{
+    color: black;
+}
+
+.row, footer{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+p{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.registration{
+    font-size:16px;
+    border: 1px solid;
+    padding: .9em 4em;
+    color: #004e4f;
+    border-radius: 100px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #004e4f;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+footer p{
+    padding-top: 0;
+    font-size: 1rem;
+	color: #fff;
+}
+
+.order{
+	order: 1;
+}
+
+.application{
+    padding: .9em 6em;
+    background-color: #b4efe0;
+    color: #004e4f;
+    border-radius: 100px;
+    transition: 0.2s;
+    text-decoration: none;
+    font-size: 18px;
+    margin: auto;
+}
+
+.busines div{
+    border-color: gray;
+    border: thin;
+    box-shadow: 0 0 3px #d8d8d8;
+}
+
+.centerPhoto{
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media (max-width: 767.98px) {
+    h1{
+        font-size: 4.2vmax;
+    }
+    h2{
+        font-size: 4vmax;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 3.2vmax;
+    }
+    h2{
+        font-size: 3vmax;
+    }
+    .registration, .application{
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .registration{
+        margin: auto;
+        margin-bottom: 50px;
+        display: block;
+        width: min-content;
+    }
+    .order{
+        order: 0;
+    }
+}
